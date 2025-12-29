@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé - Cursos y Talleres</title>
+    <!-- Preload  -->
+    <link rel="Preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="Preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="Preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+    crossorigin="crossorigin" as="font" type="font/woff2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace centrar-texto" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace centrar-texto" href="cursos.html">Cursos</a>
+                    <a class="navegacion__enlace centrar-texto" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="header__texto">
+            <h2 class="no-margin header__texto--titulo">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <main class="contenedor cursos-main">
+        <div class="cursos-header scroll-animate">
+            <h3 class="centrar-texto">Nuestros próximos Cursos y Talleres</h3>
+            <p class="cursos-descripcion centrar-texto">
+                Descubre nuestros cursos diseñados para todos los niveles, desde principiantes hasta baristas profesionales.
+            </p>
+        </div>
+
+        <div class="curso scroll-animate">
+            <div class="curso__imagen">
+                <img loading="lazy" src="/img/curso1.jpg" alt="imagen curso1">
+            </div>
+            
+            <div class="curso__info">
+                <div class="curso__header">
+                    <h4 class="no-margin">Técnicas de extracción de café</h4>
+                    <div class="curso__rating">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#784d3c" stroke="#784d3c">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <span>4.8 (120 reseñas)</span>
+                    </div>
+                </div>
+                
+                <div class="curso__detalles">
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <p class="curso__label">Duración: <span class="curso__infor">4 semanas</span></p>
+                    </div>
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <p class="curso__label">Instructor: <span class="curso__infor">Juan Pérez</span></p>
+                    </div>
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <p class="curso__label">Nivel: <span class="curso__infor">Intermedio</span></p>
+                    </div>
+                </div>
+
+                <div class="curso__precio">
+                    <p class="curso__label">Precio:
+                        <span class="curso__infor curso__infor--precio">Gratis</span>
+                    </p>
+                    <p class="curso__label">Cupo:
+                        <span class="curso__infor">20 estudiantes</span>
+                    </p>
+                </div>
+
+                <div class="curso__progreso">
+                    <div class="curso__progreso-texto">
+                        <span>Disponibilidad</span>
+                        <span>12/20 inscritos</span>
+                    </div>
+                    <div class="curso__progreso-barra">
+                        <div class="curso__progreso-fill" style="width: 60%"></div>
+                    </div>
+                </div>
+                
+                <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid, architecto
+                    nesciunt
+                    explicabo neque suscipit veritatis odio est vitae aperiam error, aspernatur blanditiis
+                    inventore sapiente impedit vero necessitatibus ex. Architecto. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Et libero mollitia dolor velit delectus enim, quis adipisci aperiam explicabo quia
+                    totam eveniet labore consequuntur quae, incidunt doloremque!
+                </p>
+
+                <button class="boton boton--primario">Inscribirse Ahora</button>
+            </div>
+        </div>
+
+        <div class="curso scroll-animate">
+            <div class="curso__imagen">
+                <img src="/img/curso2.jpg" alt="imagen del curso2" loading="lazy">
+            </div>
+            
+            <div class="curso__info">
+                <div class="curso__header">
+                    <h4 class="no-margin">Taller para Tostar y Moler Granos</h4>
+                    <div class="curso__rating">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#784d3c" stroke="#784d3c">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <span>4.9 (85 reseñas)</span>
+                    </div>
+                </div>
+                
+                <div class="curso__detalles">
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <p class="curso__label">Duración: <span class="curso__infor">3 semanas</span></p>
+                    </div>
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <p class="curso__label">Instructor: <span class="curso__infor">María García</span></p>
+                    </div>
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <p class="curso__label">Nivel: <span class="curso__infor">Avanzado</span></p>
+                    </div>
+                </div>
+
+                <div class="curso__precio">
+                    <p class="curso__label">Precio:
+                        <span class="curso__infor curso__infor--precio">Gratis</span>
+                    </p>
+                    <p class="curso__label">Cupo:
+                        <span class="curso__infor">20 estudiantes</span>
+                    </p>
+                </div>
+
+                <div class="curso__progreso">
+                    <div class="curso__progreso-texto">
+                        <span>Disponibilidad</span>
+                        <span>15/20 inscritos</span>
+                    </div>
+                    <div class="curso__progreso-barra">
+                        <div class="curso__progreso-fill" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid, architecto
+                    nesciunt
+                    explicabo neque suscipit veritatis odio est vitae aperiam error, aspernatur blanditiis
+                    inventore sapiente impedit vero necessitatibus ex. Architecto. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Et libero mollitia dolor velit delectus enim, quis adipisci aperiam explicabo quia
+                    totam eveniet labore consequuntur quae, incidunt doloremque!
+                </p>
+
+                <button class="boton boton--primario">Inscribirse Ahora</button>
+            </div>
+        </div>
+
+        <div class="curso scroll-animate">
+            <div class="curso__imagen">
+                <img src="/img/curso3.jpg" alt="imagen del curso3" loading="lazy">
+            </div>
+            
+            <div class="curso__info">
+                <div class="curso__header">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <div class="curso__rating">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#784d3c" stroke="#784d3c">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <span>5.0 (200 reseñas)</span>
+                    </div>
+                </div>
+                
+                <div class="curso__detalles">
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <p class="curso__label">Duración: <span class="curso__infor">2 semanas</span></p>
+                    </div>
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <p class="curso__label">Instructor: <span class="curso__infor">Carlos López</span></p>
+                    </div>
+                    <div class="curso__detalle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <p class="curso__label">Nivel: <span class="curso__infor">Principiante</span></p>
+                    </div>
+                </div>
+
+                <div class="curso__precio">
+                    <p class="curso__label">Precio:
+                        <span class="curso__infor curso__infor--precio">Gratis</span>
+                    </p>
+                    <p class="curso__label">Cupo:
+                        <span class="curso__infor">20 estudiantes</span>
+                    </p>
+                </div>
+
+                <div class="curso__progreso">
+                    <div class="curso__progreso-texto">
+                        <span>Disponibilidad</span>
+                        <span>8/20 inscritos</span>
+                    </div>
+                    <div class="curso__progreso-barra">
+                        <div class="curso__progreso-fill" style="width: 40%"></div>
+                    </div>
+                </div>
+                
+                <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid, architecto
+                    nesciunt
+                    explicabo neque suscipit veritatis odio est vitae aperiam error, aspernatur blanditiis
+                    inventore sapiente impedit vero necessitatibus ex. Architecto. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Et libero mollitia dolor velit delectus enim, quis adipisci aperiam explicabo quia
+                    totam eveniet labore consequuntur quae, incidunt doloremque!
+                </p>
+
+                <button class="boton boton--primario">Inscribirse Ahora</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor barra">
+            <a class="logo" href="index.html">
+                <h2 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h2>
+            </a>
+
+            <nav class="navegacion">
+                <a class="navegacion__enlace centrar-texto" href="nosotros.html">Nosotros</a>
+                <a class="navegacion__enlace centrar-texto" href="cursos.html">Cursos</a>
+                <a class="navegacion__enlace centrar-texto" href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+    
+    <!-- <script src="js/theme.js"></script> -->
+    <script src="js/animations.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/blog.js"></script>
+    <script src="js/pruebawebp.js"></script>
+</body>
+</html>
