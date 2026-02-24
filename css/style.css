@@ -222,7 +222,7 @@ img{
 .header__texto{
     text-align: center;
     color: var(--blanco);
-    margin-top: 5rem;
+    margin-top: 3rem;
     position: relative;
     z-index: 1;
 }
@@ -269,7 +269,7 @@ img{
 
 /** Navegación **/
 .navegacion {
-    display: none;
+    margin-top: 3rem;
 }
 
 @media (min-width: 768px) {
